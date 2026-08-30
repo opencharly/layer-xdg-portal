@@ -1,7 +1,7 @@
 version: 2026.232.0520
 xdg-portal:
     candy:
-        version: 2026.144.1443
+        version: 2026.242.1655
         description: |
             XDG desktop portal (wlroots backend) for screencast/screenshot on sway
             Installs xdg-desktop-portal with the wlroots + GTK backends and slurp
@@ -17,6 +17,15 @@ xdg-portal:
             XDG_CURRENT_DESKTOP: "sway"
         distro:
             fedora:
+                package:
+                    - xdg-desktop-portal
+                    - xdg-desktop-portal-wlr
+                    - xdg-desktop-portal-gtk
+                    - slurp
+            # `arch` covers BOTH arch and cachyos — the cachyos base declares
+            # `distro: [cachyos, arch]`, so the cascade resolves this section on either.
+            # Same four package names as fedora; they are identical upstream projects.
+            arch:
                 package:
                     - xdg-desktop-portal
                     - xdg-desktop-portal-wlr
