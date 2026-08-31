@@ -1,7 +1,7 @@
 version: 2026.232.0520
 xdg-portal:
     candy:
-        version: 2026.243.0100
+        version: 2026.243.0909
         description: |
             XDG desktop portal (wlroots backend) for screencast/screenshot on sway
             Installs xdg-desktop-portal with the wlroots + GTK backends and slurp
@@ -89,9 +89,9 @@ xdg-portal-skill:
             
             ```yaml
             require:
-              - '@github.com/opencharly/pod-dbus:v2026.235.2115'
-              - '@github.com/opencharly/pod-sway:v2026.241.2004'
-              - '@github.com/opencharly/pod-pipewire:v2026.243.0508'
+              - '@github.com/opencharly/pod-dbus:vTAG'
+              - '@github.com/opencharly/pod-sway:vTAG'
+              - '@github.com/opencharly/pod-pipewire:vTAG'
             
             env:
               XDG_CURRENT_DESKTOP: "sway"
