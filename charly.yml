@@ -1,7 +1,5 @@
-version: 2026.232.0520
 xdg-portal:
     candy:
-        version: 2026.243.0909
         description: |
             XDG desktop portal (wlroots backend) for screencast/screenshot on sway
             Installs xdg-desktop-portal with the wlroots + GTK backends and slurp
