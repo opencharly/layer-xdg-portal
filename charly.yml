@@ -10,7 +10,7 @@ xdg-portal:
         require:
             - '@github.com/opencharly/pod-dbus:v2026.272.0105'
             - '@github.com/opencharly/pod-sway:v2026.272.1053'
-            - '@github.com/opencharly/pod-pipewire:v2026.272.0227'
+            - '@github.com/opencharly/pod-pipewire:v2026.273.1856'
         env:
             XDG_CURRENT_DESKTOP: "sway"
         distro:
