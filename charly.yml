@@ -8,8 +8,8 @@ xdg-portal:
             portal packages and slurp are installed and the portal/sway config
             files land at their expected paths.
         require:
-            - '@github.com/opencharly/pod-dbus:v2026.272.0105'
-            - '@github.com/opencharly/pod-sway:v2026.272.1053'
+            - '@github.com/opencharly/pod-dbus:v2026.274.0648'
+            - '@github.com/opencharly/pod-sway:v2026.274.0642'
             - '@github.com/opencharly/pod-pipewire:v2026.273.1856'
         env:
             XDG_CURRENT_DESKTOP: "sway"
